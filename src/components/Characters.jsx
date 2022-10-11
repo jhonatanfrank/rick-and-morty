@@ -9,7 +9,7 @@ const Characters = (props) => {
   return (
     <div className='characters'>
       <h1>Personajes</h1>
-      <button className="btn-search" onClick={resetCharacters}>Volver a la Home</button>
+      <button className="btn-search" onClick={resetCharacters}>Volver al inicio</button>
       <div className='container-characters'>
         {characters.map((character, index) => (
           <div className='character-container' key={index}>
@@ -43,7 +43,7 @@ const Characters = (props) => {
           </div>
         ))}
       </div>
-      <button onClick={resetCharacters} className="btn-search">Volver a la home</button>
+      <button onClick={resetCharacters} className="btn-search">Volver al inicio</button>
     </div >
   )
 }
