@@ -28,6 +28,7 @@ function App() {
             <button onClick={reqApi} className="btn-search">Buscar</button>
           </>
         )}
+        hola hola
       </header>
     </div>
   );
